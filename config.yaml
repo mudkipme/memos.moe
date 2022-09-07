@@ -1,0 +1,15 @@
+baseURL: https://memos.moe/
+languageCode: en-US
+title: Moe Memos
+theme: PaperMod
+params:
+  profileMode:
+    enabled: true
+    title: Moe Memos
+    subTitle: |
+      An app to help you capture thoughts and flash ideas with [✍️memos](https://github.com/usememos/memos).   
+      Available on iPhone and iPad.
+    imageUrl: /memos.png
+  hideFooter: true
+  assets:
+    favicon: "/favicon.png"
