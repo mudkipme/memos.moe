@@ -7,9 +7,11 @@ params:
     enabled: true
     title: Moe Memos
     subTitle: |
-      An app to help you capture thoughts and flash ideas with [✍️memos](https://github.com/usememos/memos).   
-      Available on iPhone and iPad.
+      An app to help you capture thoughts and ideas, works with [✍️memos](https://github.com/usememos/memos).   
+      Coming soon to iPhone and iPad.
     imageUrl: /memos.png
+    imageWidth: 68
+    imageHeight: 68
   hideFooter: true
   assets:
     favicon: "/favicon.png"
