@@ -13,7 +13,11 @@ In the meantime, I'm transforming into a more niche digital life. I built a Home
 
 Later I discovered [✍️memos](https://github.com/usememos/memos) from [Awesome-Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted). It's a satisfying alternative for capturing ideas and it's very easy to set up. After a month's usage, I decided to build a mobile app for it.
 
-So here it is **Moe Memos**. It's an iPhone and iPad app to capture thoughts and ideas. It has a minimal and delightful design and feels native to your device. <!--It's [open source](https://github.com/mudkipme/MoeMemos) and available for free on [App Store](https://apps.apple.com/app/moe-memos/id1643902185).--> It's pending Apple approval and will be available for free on App Store. It will also be open source once it's released.
+So here it is **Moe Memos**. It's an mobile app to capture thoughts and ideas. It has a minimal and delightful design and feels native to your device.
+
+<!--It's [open source](https://github.com/mudkipme/MoeMemos) and available for free on [App Store](https://apps.apple.com/app/moe-memos/id1643902185).-->
+
+The iOS version is [pending Apple approval](/ios/) and will be available for free on App Store. It will also be open source once it's released.
 
 > Moe (萌え) refers to cute, adorable and inspiring.
 
@@ -23,9 +27,7 @@ Self-hosting means the user has complete control over their data. Through self-h
 
 For computer nerds like me, privacy advocates and whoever already have an open source router, a NAS, an used PC at home, or a cloud server thousands miles away, self-hosting is well suited and I wish you try [✍️memos](https://github.com/usememos/memos) and **Moe Memos**. For average users who need to capture ideas without the complexity of self-hosting, [flomo](https://flomoapp.com/) is recommended.
 
-### Is there an Android/Mac/Windows/Linux version?
-
-I'm thinking about building an Android version of Moe Memos as many in the self-hosted community prefer an open source operating system.
+### Is there an Mac/Windows/Linux version?
 
 While you can install Moe Memos on Apple Silicon Macs, for the best desktop experience the web version of [✍️memos](https://github.com/usememos/memos) is recommended, which can be installed as a Progressive Web App. You can also put Memos on the menu bar with [MenubarX](https://menubarx.app/).
 
