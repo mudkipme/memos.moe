@@ -15,9 +15,7 @@ Later I discovered [✍️memos](https://github.com/usememos/memos) from [Awesom
 
 So here it is **Moe Memos**. It's an mobile app to capture thoughts and ideas. It has a minimal and delightful design and feels native to your device.
 
-<!--It's [open source](https://github.com/mudkipme/MoeMemos) and available for free on [App Store](https://apps.apple.com/app/moe-memos/id1643902185).-->
-
-The iOS version is [pending Apple approval](/ios/) and will be available for free on App Store. It will also be open source once it's released.
+It's [open source](/open-source/) and available for free on [App Store](https://apps.apple.com/app/moe-memos/id1643902185). The Android version is in development and coming soon.
 
 > Moe (萌え) refers to cute, adorable and inspiring.
 
@@ -26,6 +24,22 @@ The iOS version is [pending Apple approval](/ios/) and will be available for fre
 Self-hosting means the user has complete control over their data. Through self-hosting, the user can learn more about how software and computer infrastructure work. I became proficient in Docker, Kubernetes, Flux CD and many tools via practicing myself.
 
 For computer nerds like me, privacy advocates and whoever already have an open source router, a NAS, an used PC at home, or a cloud server thousands miles away, self-hosting is well suited and I wish you try [✍️memos](https://github.com/usememos/memos) and **Moe Memos**. For average users who need to capture ideas without the complexity of self-hosting, [flomo](https://flomoapp.com/) is recommended.
+
+### Uploading images failed with "413 Entity Too Large" message
+
+If you put your Memos server behind a proxy, please increase the maximum allowed size of the client request body. Here's the nginx configruation for example:
+
+```
+client_max_body_size 128m;
+```
+
+### I can't log into my Memos server
+
+The App Transport Security policy of iOS requires HTTPS for your security. It's recommended to use [acme.sh](https://github.com/acmesh-official/acme.sh) to enable HTTPS on your server.
+
+### I can't see the pictures uploaded via the web app
+
+Image uploaded on Memos 0.5.0 or higher will be supported in the next version.
 
 ### Is there an Mac/Windows/Linux version?
 
