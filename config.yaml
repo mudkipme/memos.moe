@@ -8,7 +8,7 @@ params:
     title: Moe Memos
     subTitle: |
       An app to help you capture thoughts and ideas, works with [✍️memos](https://github.com/usememos/memos).   
-      Availabile on iPhone and iPad. Beta testing on Android.
+      Availabile on iPhone and iPad. Public beta on Android.
     imageUrl: /memos.png
     imageWidth: 68
     imageHeight: 68

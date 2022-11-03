@@ -15,7 +15,7 @@ Later I discovered [✍️memos](https://github.com/usememos/memos) from [Awesom
 
 So here it is **Moe Memos**. It's an mobile app to capture thoughts and ideas. It has a minimal and delightful design and feels native to your device.
 
-It's [open source](/open-source/) and available for free on [App Store](https://apps.apple.com/app/moe-memos/id1643902185). The Android version is in development and coming soon.
+It's [open source](/open-source/) and available for free on [App Store](https://apps.apple.com/app/moe-memos/id1643902185). The Android version is in public beta on [Google Play](https://play.google.com/store/apps/details?id=me.mudkip.moememos).
 
 > Moe (萌え) refers to cute, adorable and inspiring.
 
@@ -36,10 +36,6 @@ client_max_body_size 128m;
 ### I can't log into my Memos server
 
 The App Transport Security policy of iOS requires HTTPS for your security. It's recommended to use [acme.sh](https://github.com/acmesh-official/acme.sh) to enable HTTPS on your server.
-
-### I can't see the pictures uploaded via the web app
-
-Image uploaded on Memos 0.5.0 or higher will be supported in the next version.
 
 ### Is there an Mac/Windows/Linux version?
 
