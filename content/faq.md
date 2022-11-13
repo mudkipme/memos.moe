@@ -15,7 +15,7 @@ Later I discovered [✍️memos](https://github.com/usememos/memos) from [Awesom
 
 So here it is **Moe Memos**. It's an mobile app to capture thoughts and ideas. It has a minimal and delightful design and feels native to your device.
 
-It's [open source](/open-source/) and available for free on [App Store](https://apps.apple.com/app/moe-memos/id1643902185). The Android version is in public beta on [Google Play](https://play.google.com/store/apps/details?id=me.mudkip.moememos).
+It's [open source](/open-source/) and available for free on [App Store](https://apps.apple.com/app/moe-memos/id1643902185). The Android version is in public beta on [F-Droid](https://f-droid.org/packages/me.mudkip.moememos/) and [Google Play](https://play.google.com/store/apps/details?id=me.mudkip.moememos).
 
 > Moe (萌え) refers to cute, adorable and inspiring.
 
@@ -43,11 +43,11 @@ While you can install Moe Memos on Apple Silicon Macs, for the best desktop expe
 
 ### Can I create memos from other apps?
 
-Shortcuts supported is planned in future versions. In the mean time, you can use [this shortcut](https://github.com/usememos/memos/discussions/52) from Memos community.
+Share Extension (Sharing Shortcuts on Android) is planned in future versions. In the mean time, you can use [this shortcut](https://github.com/usememos/memos/discussions/52) from Memos community.
 
 ### Can I create memos from messaging apps like WeChat or Telegram?
 
-There are projects that integrate [WeChat Official Accounts](https://github.com/ZhaoUncle/memos-proxy) and [WeChat Mini Program](https://github.com/Rabithua/memos_wmp) from Memos community. You can also build bots with Memos API.
+There are projects that integrate [WeChat Official Accounts](https://github.com/ZhaoUncle/memos-proxy), [WeChat Mini Program](https://github.com/Rabithua/memos_wmp) and [Telegram bot](https://github.com/qazxcdswe123/telegramMemoBot) from Memos community. You can also build bots with Memos API.
 
 ### Can I use Moe Memos offline?
 
