@@ -45,7 +45,7 @@ While you can install Moe Memos on Apple Silicon Macs, for the best desktop expe
 
 ### Can I create memos from other apps?
 
-Share Extension (Sharing Shortcuts on Android) is planned in future versions. In the mean time, you can use [this shortcut](https://github.com/usememos/memos/discussions/52) from Memos community.
+Share Extension on iOS is available in latest version. You can also use [this shortcut](https://github.com/usememos/memos/discussions/52) from Memos community. Sharing Shortcuts on Android is planned in future versions.
 
 ### Can I create memos from messaging apps like WeChat or Telegram?
 
