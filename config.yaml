@@ -20,7 +20,5 @@ params:
     url: /open-source/
   - name: Mastodon
     url: https://fosstodon.org/@moememos
-  - name: Twitter
-    url: https://twitter.com/MoeMemos
   - name: Email
     url: mailto:memos@memos.moe
