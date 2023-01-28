@@ -25,6 +25,10 @@ Self-hosting means the user has complete control over their data. Through self-h
 
 For computer nerds like me, privacy advocates and whoever already have an open source router, a NAS, an used PC at home, or a cloud server thousands miles away, self-hosting is well suited and I wish you try [✍️memos](https://github.com/usememos/memos) and **Moe Memos**. For average users who need to capture ideas without the complexity of self-hosting, [flomo](https://flomoapp.com/) is recommended.
 
+### Supported Memos server versions
+
+please refer to [Memos Support Matrix](/memos) for detail.
+
 ### Uploading images failed with "413 Entity Too Large" message
 
 If you put your Memos server behind a proxy, please increase the maximum allowed size of the client request body. Here's the nginx configruation for example:
@@ -37,15 +41,13 @@ client_max_body_size 128m;
 
 The App Transport Security policy of iOS requires HTTPS for your security. It's recommended to use [acme.sh](https://github.com/acmesh-official/acme.sh) to enable HTTPS on your server.
 
-If your Memos server is 0.8.0 or higher, please upgrade Moe Memos to its latest version.
-
 ### Is there an Mac/Windows/Linux version?
 
 While you can install Moe Memos on Apple Silicon Macs, for the best desktop experience the web version of [✍️memos](https://github.com/usememos/memos) is recommended, which can be installed as a Progressive Web App. You can also put Memos on the menu bar with [MenubarX](https://menubarx.app/).
 
 ### Can I create memos from other apps?
 
-Share Extension on iOS is available in latest version. You can also use [this shortcut](https://github.com/usememos/memos/discussions/52) from Memos community. Sharing Shortcuts on Android is planned in future versions.
+You can save texts, images or webpages from the share sheet of other apps to Moe Memos. You can also use [this shortcut](https://github.com/usememos/memos/discussions/52) from Memos community.
 
 ### Can I create memos from messaging apps like WeChat or Telegram?
 
