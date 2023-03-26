@@ -8,26 +8,30 @@ It is recommended to use [docker tag](https://hub.docker.com/r/neosmemo/memos/ta
 
 ## iOS
 
-| App Version (below) | 0.5.0 - 0.7.3 | 0.8.0 - 0.9.0 | 0.9.1 | 0.10.0 - 0.10.1 | 0.10.2 |
-|--|--|--|--|--|--|
-| **1.3.2 (current)** | ✅ | ✅ | ✅ | ✅ | ✅ |
-| 1.3.1 | ✅ | ✅ | ✅ | ✅ | - |
-| 1.2.1 - 1.3 | ✅ | ✅ | ✅ | - | - |
-| 1.1.2 - 1.2 | ✅ | ✅ | - | - | - |
-| 1.0 - 1.1.1 | ✅ | - | - | - | - |
+| App Version (below) | 0.5.0 - 0.7.3 | 0.8.0 - 0.9.0 | 0.9.1 | 0.10.0 - 0.10.1 | 0.10.2 - 0.10.3 | 0.11.0 - 0.11.2 |
+|--|--|--|--|--|--|--|
+| 1.3.4 - **1.5** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 1.3.2 - 1.3.3 | ✅ | ✅ | ✅ | ✅ | ✅ | - |
+| 1.3.1 | ✅ | ✅ | ✅ | ✅ | - | - |
+| 1.2.1 - 1.3 | ✅ | ✅ | ✅ | - | - | - |
+| 1.1.2 - 1.2 | ✅ | ✅ | - | - | - | - |
+| 1.0 - 1.1.1 | ✅ | - | - | - | - | - |
 
 ## Android
 
-| App Version (below) | 0.5.0 - 0.7.3 | 0.8.0 - 0.9.0 | 0.9.1 | 0.10.0 - 0.10.1 | 0.10.2 |
-|--|--|--|--|--|--|
-| **0.5.2 (current)** | ✅ | ✅ | ✅ | ✅ | ✅ |
-| 0.5.1 | ✅ | ✅ | ✅ | ✅ | - |
-| 0.4.1 | ✅ | ✅ | ✅ | - | - |
-| 0.2.1 - 0.4.0 | ✅ | ✅ | - | - | - |
-| 0.1.0 - 0.2.0 | ✅ | - | - | - | - |
+| App Version (below) | 0.5.0 - 0.7.3 | 0.8.0 - 0.9.0 | 0.9.1 | 0.10.0 - 0.10.1 | 0.10.2 - 0.10.3 | 0.11.0 - 0.11.2 |
+|--|--|--|--|--|--|--|
+| **0.5.4** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 0.5.2 - 0.5.3 | ✅ | ✅ | ✅ | ✅ | ✅ | - |
+| 0.5.1 | ✅ | ✅ | ✅ | ✅ | - | - |
+| 0.4.1 | ✅ | ✅ | ✅ | - | - | - |
+| 0.2.1 - 0.4.0 | ✅ | ✅ | - | - | - | - |
+| 0.1.0 - 0.2.0 | ✅ | - | - | - | - | - |
 
 ## Updates
 
+- Memos 0.9.0 changed how tags are created and stored. Discovering new tags when saving memos is supported by Moe Memos iOS 1.5 and upcoming Android release.
+- Memos 0.11.0 indroduced external storage, which is supported by Moe Memos iOS 1.3.4 / Android 0.5.4.
 - Memos 0.10.2 introduced an API change to resource uploading. This is fixed in iOS 1.3.2 / Android 0.5.2.
 - Memos 0.10.0 changed sign out API from `/auth/logout` to `/auth/signout`. This is supported in iOS 1.3.1 / Android 0.5.1.
 - Memos 0.9.1 fixed CSRF security issues, which affects username and password login on Moe Memos. This is fixed in iOS 1.2.1 / Android 0.4.1.
