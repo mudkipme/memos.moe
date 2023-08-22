@@ -17,7 +17,7 @@ params:
     favicon: "/favicon.png"
   socialIcons:
   - name: GitHub
-    url: /open-source/
+    url: https://github.com/mudkipme?tab=repositories&q=moe+memos
   - name: Mastodon
     url: https://fosstodon.org/@moememos
   - name: Email
