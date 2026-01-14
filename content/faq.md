@@ -15,7 +15,7 @@ Later I discovered [✍️memos](https://github.com/usememos/memos) from [Awesom
 
 So here it is **Moe Memos**. It's an mobile app to capture thoughts and ideas. It has a minimal and delightful design and feels native to your device.
 
-It's [open source](/open-source/) and available for free on [App Store](https://apps.apple.com/app/moe-memos/id1643902185), [F-Droid](https://f-droid.org/packages/me.mudkip.moememos/) and [Google Play](https://play.google.com/store/apps/details?id=me.mudkip.moememos).
+It's [open source](https://github.com/mudkipme?tab=repositories&q=moe+memos) and available for free on [App Store](https://apps.apple.com/app/moe-memos/id1643902185), [F-Droid](https://f-droid.org/packages/me.mudkip.moememos/) and [Google Play](https://play.google.com/store/apps/details?id=me.mudkip.moememos).
 
 > Moe (萌え) refers to cute, adorable and inspiring.
 
@@ -27,7 +27,7 @@ For computer nerds like me, privacy advocates and whoever already have an open s
 
 ### Supported Memos server versions
 
-please refer to [Memos Support Matrix](/memos) for detail.
+Current Moe Memos version supports Memos 0.21.0 and 0.25.3. Memos updates may introduce breaking API changes. If you are using a version higher than 0.25.3, it is recommended to use [Mortis](https://github.com/mudkipme/mortis) to convert the newer Memos API to the Memos 0.21.0 API and re-login in Moe Memos.
 
 ### Uploading images failed with "413 Entity Too Large" message
 
@@ -44,14 +44,6 @@ The App Transport Security policy of iOS requires HTTPS for your security. It's 
 ### Is there an Mac/Windows/Linux version?
 
 While you can install Moe Memos on Apple Silicon Macs, for the best desktop experience the web version of [✍️memos](https://github.com/usememos/memos) is recommended, which can be installed as a Progressive Web App. You can also put Memos on the menu bar with [MenubarX](https://menubarx.app/).
-
-### Can I create memos from other apps?
-
-You can save texts, images or webpages from the share sheet of other apps to Moe Memos. You can also use [this shortcut](https://github.com/usememos/memos/discussions/52) from Memos community.
-
-### Can I create memos from messaging apps like WeChat or Telegram?
-
-There are projects that integrate [WeChat Official Accounts](https://github.com/ZhaoUncle/memos-proxy), [WeChat Mini Program](https://github.com/Rabithua/memos_wmp) and [Telegram bot](https://github.com/qazxcdswe123/telegramMemoBot) from Memos community. You can also build bots with Memos API.
 
 ### Can I use Moe Memos offline?
 
