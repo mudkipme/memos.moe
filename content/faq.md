@@ -23,28 +23,26 @@ It's [open source](https://github.com/mudkipme?tab=repositories&q=moe+memos) and
 
 Self-hosting means the user has complete control over their data. Through self-hosting, the user can learn more about how software and computer infrastructure work. I became proficient in Docker, Kubernetes, Flux CD and many tools via practicing myself.
 
-For computer nerds like me, privacy advocates and whoever already have an open source router, a NAS, an used PC at home, or a cloud server thousands miles away, self-hosting is well suited and I wish you try [✍️memos](https://github.com/usememos/memos) and **Moe Memos**. For average users who need to capture ideas without the complexity of self-hosting, [flomo](https://flomoapp.com/) is recommended.
+For computer nerds like me, privacy advocates and whoever already have an open source router, a NAS, an used PC at home, or a cloud server thousands miles away, self-hosting is well suited and I wish you try [✍️memos](https://github.com/usememos/memos) and **Moe Memos**.
 
 ### Supported Memos server versions
 
-Current Moe Memos version supports Memos 0.21.0 and 0.25.3. Memos updates may introduce breaking API changes. If you are using a version higher than 0.25.3, it is recommended to use [Mortis](https://github.com/mudkipme/mortis) to convert the newer Memos API to the Memos 0.21.0 API and re-login in Moe Memos.
+Current Moe Memos version supports Memos 0.21.0, 0.26.0 and 0.26.1. Memos updates may introduce breaking API changes. If you are using a version higher than 0.26.1, it is recommended to use [Mortis](https://github.com/mudkipme/mortis) to convert the newer Memos API to the Memos 0.21.0 API and re-login in Moe Memos.
 
 ### Uploading images failed with "413 Entity Too Large" message
 
 If you put your Memos server behind a proxy, please increase the maximum allowed size of the client request body. Here's the nginx configruation for example:
 
-```
+```nginx
 client_max_body_size 128m;
 ```
 
-### I can't log into my Memos server
-
-The App Transport Security policy of iOS requires HTTPS for your security. It's recommended to use [acme.sh](https://github.com/acmesh-official/acme.sh) to enable HTTPS on your server.
-
 ### Is there an Mac/Windows/Linux version?
 
-While you can install Moe Memos on Apple Silicon Macs, for the best desktop experience the web version of [✍️memos](https://github.com/usememos/memos) is recommended, which can be installed as a Progressive Web App. You can also put Memos on the menu bar with [MenubarX](https://menubarx.app/).
+While you can install Moe Memos on Apple Silicon Macs, for the best desktop experience the web version of [✍️memos](https://github.com/usememos/memos) is recommended, which can be installed as a Progressive Web App.
 
 ### Can I use Moe Memos offline?
 
-Offline support is planned in future versions.
+Please use the latest [TestFlight](https://testflight.apple.com/join/YVHheZ50) (iOS) or [GitHub Pre-release](https://github.com/mudkipme/MoeMemosAndroid/releases) (Android) version for local on-device storage support, as well as offline-first syncing with Memos server support.
+
+Be aware these versions are still in testing and you should backup your Memos database first.
