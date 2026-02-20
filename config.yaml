@@ -7,7 +7,7 @@ params:
     enabled: true
     title: Moe Memos
     subTitle: |
-      An app to help you capture thoughts and ideas, syncs with [✍️memos](https://github.com/usememos/memos).   
+      An app to help you capture thoughts and ideas, syncing with [Memos](https://github.com/usememos/memos).   
       Available on iPhone, iPad and Android.
     imageUrl: /memos.png
     imageWidth: 68
