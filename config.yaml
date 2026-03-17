@@ -15,6 +15,10 @@ params:
   hideFooter: true
   assets:
     favicon: "/favicon.png"
+    favicon16x16: "/favicon.png"
+    favicon32x32: "/favicon.png"
+    apple_touch_icon: "/favicon.png"
+    safari_pinned_tab: "/favicon.png"
   socialIcons:
     - name: GitHub
       url: https://github.com/mudkipme?tab=repositories&q=moe+memos
