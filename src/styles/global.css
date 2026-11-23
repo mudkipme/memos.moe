@@ -1,0 +1,115 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --bg: #ffffff;
+  --surface: #fafafa;
+  --surface-subtle: #f4f4f5;
+  --ink: #18181b;
+  --ink-muted: #52525b;
+  --ink-subtle: #71717a;
+  --border: #e4e4e7;
+  --border-strong: #d4d4d8;
+  --accent: #16a34a;
+  --accent-soft: #dcfce7;
+}
+
+.dark {
+  --bg: #111113;
+  --surface: #18181b;
+  --surface-subtle: #202024;
+  --ink: #f4f4f5;
+  --ink-muted: #a1a1aa;
+  --ink-subtle: #71717a;
+  --border: #27272a;
+  --border-strong: #3f3f46;
+  --accent: #4ade80;
+  --accent-soft: rgba(74, 222, 128, 0.14);
+}
+
+@theme inline {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+}
+
+html {
+  background-color: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--ink);
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+::selection {
+  background-color: var(--accent-soft);
+  color: var(--ink);
+}
+
+.prose-moe {
+  --tw-prose-body: var(--ink-muted);
+  --tw-prose-headings: var(--ink);
+  --tw-prose-lead: var(--ink-muted);
+  --tw-prose-links: var(--ink);
+  --tw-prose-bold: var(--ink);
+  --tw-prose-counters: var(--ink-subtle);
+  --tw-prose-bullets: var(--border-strong);
+  --tw-prose-hr: var(--border);
+  --tw-prose-quotes: var(--ink);
+  --tw-prose-quote-borders: var(--border-strong);
+  --tw-prose-code: var(--ink);
+  --tw-prose-pre-code: var(--ink);
+  --tw-prose-pre-bg: var(--surface);
+  --tw-prose-th-borders: var(--border-strong);
+  --tw-prose-td-borders: var(--border);
+}
+
+.prose-moe h2,
+.prose-moe h3 {
+  letter-spacing: -0.015em;
+  scroll-margin-top: 5rem;
+}
+
+.prose-moe pre {
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  font-size: 0.84rem;
+  line-height: 1.6;
+}
+
+.prose-moe :not(pre) > code {
+  background-color: var(--surface-subtle);
+  border: 1px solid var(--border);
+  border-radius: 0.375rem;
+  padding: 0.125rem 0.375rem;
+  font-weight: 500;
+}
+
+.prose-moe :not(pre) > code::before,
+.prose-moe :not(pre) > code::after {
+  content: none;
+}
+
+.prose-moe a {
+  text-decoration-color: var(--border-strong);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.prose-moe a:hover {
+  text-decoration-color: var(--ink);
+}
+
+.prose-moe blockquote {
+  font-style: normal;
+}

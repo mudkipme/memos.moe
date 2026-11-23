@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Page Not Found">
+  <section class="mx-auto flex max-w-xl flex-col items-center px-5 py-24 text-center sm:px-8">
+    <img src="/memos.png" alt="Moe Memos" width="52" height="52" class="h-13 w-13 rounded-2xl border border-[var(--border)]" />
+    <h1 class="mt-6 text-2xl font-semibold tracking-tight text-[var(--ink)]">
+      Page not found
+    </h1>
+    <div class="mt-6 flex flex-wrap justify-center gap-3">
+      <a
+        href="/"
+        class="rounded-lg bg-[var(--ink)] px-4 py-2 text-sm font-medium text-[var(--bg)]"
+      >
+        Home
+      </a>
+      <a
+        href="/faq/"
+        class="rounded-lg border border-[var(--border-strong)] bg-[var(--bg)] px-4 py-2 text-sm font-medium text-[var(--ink)] hover:bg-[var(--surface-subtle)]"
+      >
+        FAQ
+      </a>
+    </div>
+  </section>
+</BaseLayout>

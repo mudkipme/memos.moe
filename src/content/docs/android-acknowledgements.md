@@ -1,12 +1,13 @@
 ---
-title: "Acknowledgements"
+title: "Android Acknowledgements"
+description: "Open-source components used by the Android version of Moe Memos."
 ---
 
 The Android version of Moe Memos depends on the following open source components:
 
 ### [AndroidX](https://github.com/androidx/androidx)
 
-```
+```text
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
@@ -22,7 +23,7 @@ limitations under the License.
 
 ### [Retrofit](https://github.com/square/retrofit)
 
-```
+```text
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
@@ -38,7 +39,7 @@ limitations under the License.
 
 ### [OkHttp](https://github.com/square/okhttp)
 
-```
+```text
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
@@ -54,7 +55,7 @@ limitations under the License.
 
 ### [Sandwich](https://github.com/skydoves/sandwich)
 
-```
+```text
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
@@ -70,7 +71,7 @@ limitations under the License.
 
 ### [Dagger (Hilt)](https://github.com/google/dagger)
 
-```
+```text
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
@@ -86,7 +87,7 @@ limitations under the License.
 
 ### [Timber](https://github.com/JakeWharton/timber)
 
-```
+```text
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
@@ -102,7 +103,7 @@ limitations under the License.
 
 ### [Coil](https://github.com/coil-kt/coil)
 
-```
+```text
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
@@ -118,7 +119,7 @@ limitations under the License.
 
 ### [intellij-markdown](https://github.com/JetBrains/markdown)
 
-```
+```text
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
@@ -134,7 +135,7 @@ limitations under the License.
 
 ### [Multiplatform Markdown Renderer](https://github.com/mikepenz/multiplatform-markdown-renderer)
 
-```
+```text
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
@@ -150,7 +151,7 @@ limitations under the License.
 
 ### [Kotlinx Serialization](https://github.com/Kotlin/kotlinx.serialization)
 
-```
+```text
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
@@ -166,7 +167,7 @@ limitations under the License.
 
 ### [SemVer](https://github.com/swiftzer/semver)
 
-```
+```text
 Copyright (c) 2017 Eric Li
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

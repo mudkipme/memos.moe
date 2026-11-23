@@ -1,9 +1,17 @@
-/.vscode
-/.idea
-/.vscode
-/public
-node_modules
-nohup.out
+# build output
+dist/
+.astro/
+
+# dependencies
+node_modules/
+
+# environment
+.env
+.env.*
+
+# editor / OS
+.vscode/
+.idea/
 .DS_Store
+nohup.out
 trace.out
-.hugo_build.lock

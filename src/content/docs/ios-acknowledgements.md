@@ -1,12 +1,13 @@
 ---
-title: "Acknowledgements"
+title: "iOS Acknowledgements"
+description: "Open-source Swift packages used by the iOS version of Moe Memos."
 ---
 
 The iOS version of Moe Memos depends on the following third-party Swift packages:
 
 ### [data-uri](https://github.com/nodes-vapor/data-uri)
 
-```
+```text
 MIT License
 
 Copyright (c) 2016-2018 Nodes
@@ -32,7 +33,7 @@ SOFTWARE.
 
 ### [Factory](https://github.com/hmlongco/Factory)
 
-```
+```text
 MIT License
 
 Copyright (c) 2022 Michael Long
@@ -58,7 +59,7 @@ SOFTWARE.
 
 ### [keychain-swift](https://github.com/evgenyneu/keychain-swift)
 
-```
+```text
 The MIT License
 
 Copyright (c) 2015 - 2024 Evgenii Neumerzhitckii
@@ -70,21 +71,21 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ```
 
 ### [MarkdownView](https://github.com/LiYanan2004/MarkdownView)
 
-```
+```text
 MIT License
 
 Copyright (c) 2022 LiYanan2004
@@ -110,7 +111,7 @@ SOFTWARE.
 
 ### [swift-markdown](https://github.com/swiftlang/swift-markdown)
 
-```
+```text
 Copyright (c) 2021 Apple Inc. and the Swift project authors
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -128,7 +129,7 @@ limitations under the License.
 
 ### [swift-openapi-generator](https://github.com/apple/swift-openapi-generator)
 
-```
+```text
 Copyright (c) Apple Inc. and the Swift project authors
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -146,7 +147,7 @@ limitations under the License.
 
 ### [swift-openapi-runtime](https://github.com/apple/swift-openapi-runtime)
 
-```
+```text
 Copyright (c) Apple Inc. and the Swift project authors
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -164,7 +165,7 @@ limitations under the License.
 
 ### [swift-openapi-urlsession](https://github.com/apple/swift-openapi-urlsession)
 
-```
+```text
 Copyright (c) Apple Inc. and the Swift project authors
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -182,7 +183,7 @@ limitations under the License.
 
 ### [ZIPFoundation](https://github.com/weichsel/ZIPFoundation)
 
-```
+```text
 MIT License
 
 Copyright (c) 2017-2025 Thomas Zoechling (https://www.peakstep.com)
@@ -208,7 +209,7 @@ SOFTWARE.
 
 ### [WhatsNewKit](https://github.com/SvenTiigi/WhatsNewKit)
 
-```
+```text
 The MIT License (MIT)
 
 Copyright (c) 2022 Sven Tiigi
